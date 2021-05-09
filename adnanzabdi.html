@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Collection</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif; align-content: center;">
+    <h1>Data Collection</h1>
+    <hr><br>
+    <p>This form aimed at collecting the details of newly joined students in our college.</p><br>
+    <hr><br>
+    <form style="margin-left: auto; margin-right: auto;">
+        <table>
+                <tr>
+                    <td><label for="name">Name: </label></td>
+                    <td><input type="text" id="name" name="name" placeholder="Name"></td>
+                </tr>
+                <tr>
+                    <td><label for="Email">Email: </label></td>
+                    <td><input type="text" id="Email" name="Email" placeholder="Email">
+                    <select id="Email" name="Email">
+                        <option value="@gmail.com">@gmail.com</option>
+                        <option value="@outlook.com">@outlook.com</option>
+                        <option value="others">Others</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="Phone Number">Phone Number: </label></td>
+                    <td><input type="tel" inputmode="tel" id="Phone Number" name="Phone Number" placeholder="Phone Number"></td>
+                </tr>
+                <tr>
+                    <td><label for="Batch">Batch: </label></td>
+                    <td><input type="text" id="Batch" name="Batch" placeholder="Batch"></td>
+                </tr>
+                <tr>
+                    <td><label for="Semester">Semester: </label></td>
+                    <td><select id="Semester" name="Semester">
+                            <option value="S1">S1</option>
+                            <option value="S2">S2</option>
+                            <option value="S3">S3</option>
+                            <option value="S4">S4</option>
+                            <option value="S5">S5</option>
+                            <option value="S6">S6</option>
+                            <option value="S7">S7</option>
+                            <option value="S8">S8</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address: </label></td>
+                    <td><input type="text" id="address" name="address" placeholder="Address"></td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date of Birth: </label></td>
+                    <td><input type="date" id="dob" name="dob"></td>
+                </tr>
+                <tr>
+                    <td><label for="Gender">Gender: </label></td>
+                    <td><input type="radio" id="Gender" name="Gender">Male
+                    <input type="radio" id="Gender" name="Gender">Female</td>
+                </tr>
+                <tr>
+                    <td><label for="Message">Any message or queries? </label></td>
+                    <td><textarea name="Message" rows="10" cols="30" placeholder="Message or Queries"></textarea></td>
+                </tr><br>
+                <tr>
+                    <td colspan="2" style="align-items: center;">
+                    <button type="button" value="Submit" onclick="alert('Thank you for submitting!')">Submit</button></td>
+                </tr>
+        </table>
+    </form>
+</body>
+</html>
